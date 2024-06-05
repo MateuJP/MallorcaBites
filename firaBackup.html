@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <title>MallorcaBites</title>
+</head>
+
+<body>
+    <header id="header2" class="fixed-top header-scrolled">
+        <div class="container d-flex align-items-center justify-content-between">
+            <h1 class="logo"><a href="index.html">MallorcaBites</a></h1>
+            <nav id="navbar" class="navbar">
+                <ul id="ul_ferias_nav">
+                    <li><a class="nav-link scrollto" href="#infoFira">Fira Pebre Bord</a></li>
+                    <li><a class="nav-link scrollto" href="#contacto">Contacto</a></li>
+                </ul>
+                <i class="fas fa-bars mobile-nav-toggle"></i>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container-fluid" style="margin-top: 100px;">
+        <div class="row">
+            <!-- Sidebar -->
+            <aside class="col-md-3 sidebar">
+
+                <div class="list-group">
+                    <a href="#mapContainer" class="list-group-item list-group-item-action d-flex align-items-center"
+                        onclick="showContent('map')">
+                        <i class="fas fa-map-marked-alt mr-3"></i> Ver Mapa
+                    </a>
+                    <a href="#videoContainer" class="list-group-item list-group-item-action d-flex align-items-center"
+                        onclick="showContent('video')">
+                        <i class="fas fa-video mr-3"></i> Ver Video
+                    </a>
+                    <a href="#carouselRecipeContainer"
+                        class="list-group-item list-group-item-action d-flex align-items-center"
+                        onclick="showContent('carouselRecipe')">
+                        <i class="fas fa-utensils mr-3"></i> Ver Recetas
+                    </a>
+                </div>
+            </aside>
+
+            <!-- Main Content -->
+            <main id="infoFira" class="col-md-6">
+                <div>
+                    <div>
+                        <h2 class="titulo_feria">Fira del Pebre Bord</h2>
+                        <div class="feria-description-container">
+                            <p class="description_feria">La Fira del Pebre Bord en Felanitx es un evento cultural y
+                                gastronómico
+                                que celebra el legado y la importancia del "pebre bord", una especia central en la
+                                cocina de la
+                                región. Este festival anual aglutina tradición y sabor en un fin de semana repleto de
+                                actividades. Desde la inauguración de la muestra industrial en el Parc Municipal de Sa
+                                Torre,
+                                pasando por talleres, conciertos y exposiciones, hasta el emblemático Baile del Pebre
+                                Bord, la
+                                feria invita a explorar la rica cultura de Felanitx a través de sus artesanías,
+                                gastronomía y
+                                música</p>
+                            <div class="feria-speach-container">
+                                <i class="fas fa-volume-down"></i>
+                                <p>Leer Descripción</p>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="icons-info-container">
+                    <div class="icon-with-text"><i class="fas fa-car"></i>
+                        <p>Aparcamiento disponible</p>
+                    </div>
+                    <div class="icon-with-text"><i class="fas fa-child"></i>
+                        <p>Ideal para niños</p>
+                    </div>
+                    <div class="icon-with-text"><i class="fas fa-ticket-alt"></i>
+                        <p>Entrada gratuita</p>
+                    </div>
+                </div>
+
+                <div id="mapContainer" style="display: none;">
+                    <div id="map" style="height: 400px;"></div>
+                    <!-- Google Maps integration goes here -->
+                </div>
+
+                <div id="videoContainer" style="display: none; position: relative;">
+                    <video id="myVideo" width="100%" playsinline preload="none">
+                        <source src="./assets/fires/PebreBord/videoPebreBordCompres.mp4" type="video/mp4">
+                        <source src="./assets/fires/PebreBord/videoPebreBord.webm" type="video/webm">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                    <i id="play-pause-button" class="fas fa-play"></i>
+                    <div id="custom-controls">
+                        <div id="progress-bar">
+                            <div id="progress-bar-fill"></div>
+                        </div>
+                        <div class="controls-container">
+                            <div class="buttons-container">
+                                <div class="rewind-play-forward-container">
+                                    <i id="rewind-button" class="fas fa-backward"></i>
+                                    <i id="play-pause" class="fas fa-play"></i>
+                                    <i id="forward-button" class="fas fa-forward"></i>
+                                </div>
+                                <div class="audio-controller">
+                                    <i id="volume-icon" class="fas fa-volume-down"></i>
+                                    <input type="range" id="volume-slider" min="0" max="1" step="0.1" value="1">
+                                </div>
+                                <div class="time-container">
+                                    <span class="current_time">0:00</span> <span style="color: white;">/</span><span
+                                        class="totalTime">0:00</span>
+                                </div>
+
+                            </div>
+                            <div class="advanced-features-container" style="gap: 50px;">
+                                <div class="subtitules">
+                                    <i id="subtitles_icon" class="far fa-closed-captioning"></i>
+                                </div>
+                                <div class="settings">
+                                    <i id="setting_icon" class="fas fa-cog"></i>
+                                    <div class="popover_container hidden">
+
+                                        <div class="popover_options_card">
+                                            <i class="fas fa-tachometer-alt"></i>
+                                            <button class="popover_options"
+                                                data-target="options_speed">Velocidad</button>
+
+                                        </div>
+                                    </div>
+                                    <div id="options_speed" class="popover_selector_container hidden">
+                                        <i data-target="options_speed" class="fas fa-arrow-left"></i>
+                                        <button class="button-speed" value="0.5">0.5</button>
+                                        <button class="button-speed" value="1">1</button>
+                                        <button class="button-speed" value="1.5">1.5</button>
+                                        <button class="button-speed" value="2">2</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="carouselRecipeContainer" style="display: none;" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="img_recipe">
+                                <img src="/assets/fires/PebreBord/receta01.jpg" class="d-block w-100" alt="Sobrassada">
+                                <div class="overlay_img_recipe"></div>
+
+                            </div>
+                            <div class="carousel-caption">
+                                <h5 class="recipe-title">Sobrassada</h5>
+                                <a href="http://milreceptesdecuina.blogspot.com/2013/02/sobrassada-de-son-pou.html"
+                                    target="_blank" class="btn btn-primary recipe-btn">Ver Receta</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="img_recipe">
+                                <img class="d-block w-100 img_recipe" src="/assets/fires/PebreBord/receta02.jpg">
+                                <div class="overlay_img_recipe"></div>
+                            </div>
+                            <div class="carousel-caption">
+
+                                <h5 class="recipe-title">Pulpo a la gallega</h5>
+                                <a href="https://cookingdaybyday.wordpress.com/tag/tap-de-corti/" target="_blank"
+                                    class="btn btn-primary recipe-btn">Ver Receta</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselRecipeContainer" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselRecipeContainer" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
+        </div>
+    </div>
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+    </div>
+    </main>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./js/app.js"></script>
+    <!--<script src="./js/fira.js"></script>-->
+
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcFkzkwznfbhZ_B7xBC8I4KaeHEnXUTSo&callback=initMap">
+        </script>
+    <script>
+        function initMap() {
+            var ubicacion = { lat: 39.4696, lng: 3.1483 };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 15,
+                center: ubicacion
+            });
+            var marker = new google.maps.Marker({
+                position: ubicacion,
+                map: map
+            });
+        }
+        function showContent(contentId) {
+            event.preventDefault();
+            var contentContainer = document.getElementById(contentId + 'Container');
+            var wasActive = document.querySelector('.list-group-item.active');
+            if (wasActive && wasActive.getAttribute('onclick').includes(contentId)) {
+                contentContainer.style.display = 'none';
+                wasActive.classList.remove('active');
+            } else {
+
+                document.getElementById('mapContainer').style.display = 'none';
+                document.getElementById('videoContainer').style.display = 'none';
+                document.getElementById('carouselRecipeContainer').style.display = 'none';
+
+                contentContainer.style.display = 'block';
+
+                document.querySelectorAll('.list-group-item').forEach(function (el) {
+                    el.classList.remove('active');
+                });
+
+                event.currentTarget.classList.add('active');
+            }
+        }
+
+    </script>
+</body>
+<footer class="text-light text-center text-lg-start" style="background-color: #333333;">
+    <div class="container py-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <section id="contacto">
+                    <h2 class="text-center mb-4 text_form">Contacto</h2>
+                    <form action="https://formspree.io/f/mleqwjrl" method="POST" class="contact-form">
+                        <div class="mb-3">
+                            <input type="email" name="email" id="email" class="form-control"
+                                placeholder="tu@correo.com">
+                        </div>
+                        <div class="mb-3">
+                            <textarea name="message" id="message" class="form-control" rows="3"
+                                placeholder="Escribe tu mensaje aquí..."></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary btn_footer">Enviar</button>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 mt-4">
+                <p class="text-center text_copyright">&copy; <span id="year"></span> Derechos Reservados: <a
+                        href="https://mdbootstrap.com/" class="text-reset">MallorcaBites.com</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</html>

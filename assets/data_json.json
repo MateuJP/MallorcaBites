@@ -1,0 +1,53 @@
+{
+    "municipios":[
+        "Felanitx",
+        "Capdepera",
+        "Caimari",
+        "Port d'Alcúdia",
+        "Pollença"
+
+    ],
+    "meses":[
+        "Enero",
+        "Febrero",
+        "Marzo",
+        "Abril",
+        "Mayo",
+        "Junio",
+        "Julio",
+        "Agosto",
+        "Septiembre",
+        "Octubre",
+        "Noviembre",
+        "Diciembre"
+    ],
+    "observaciones":[
+       "Familias",
+       "Entrada Gratuita",
+       "Parking" ,
+       "Veganos"
+    ],
+    "filtros":[
+        "Mes",
+        "Valoración",
+        "Nombre"
+    ],
+    "equipo":[
+        {
+            "name": "Iago Caldentey Palmer",
+            "foto":"/assets/team/team01.jpeg",
+            "description":"Soy Iago, estudiante de Ingeniería Informática del itinerario de Inteligencia Artificial y Computación"
+        },
+        {
+            "name": "Carlos Guasp López",
+            "foto": "/assets/team/team02.jpeg",
+            "description":"Soy Carlos, estudiante de Ingeniería Informática del itinerario de Tecnologías de la Información"
+
+        },{
+            "name": "Mateu Joan Perelló",
+            "foto" :"/assets/team/team03.jpeg",
+            "description":"Soy Mateu, estudiante de Ingeniería Informática del itinerario de Sistemas de la Información"
+
+        }
+    ]
+}

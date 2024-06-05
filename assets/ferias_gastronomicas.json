@@ -1,0 +1,556 @@
+{
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [
+      {
+        "@identifier":1,
+        "@type": "FoodEvent",
+        "name": "Fira del Pebre Bord",
+        "description": "La Fira del Pebre Bord en Felanitx es un evento cultural y gastronómico que celebra el legado y la importancia del pebre bord, una especia central en la cocina de la región. Este festival anual aglutina tradición y sabor en un fin de semana repleto de actividades. Desde la inauguración de la muestra industrial en el Parc Municipal de Sa Torre, pasando por talleres, conciertos y exposiciones, hasta el emblemático Baile del Pebre Bord, la feria invita a explorar la rica cultura de Felanitx a través de sus artesanías, gastronomía y música",
+        "isAccessibleForFree": true,
+        "location": [{
+
+          "@type":"Place",
+          "address":{
+            "@type": "PostalAddress",
+            "addressLocality": "Felanitx",
+            "addressRegion": "ES",
+            "postalCode": "07200",
+            "streetAddress": "Plaça Constitució, 07200 Felanitx, Illes Balears"
+          }  
+        },{
+            "@type":"Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 39.4696,
+                "longitude": 3.1483
+              }
+        }],
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "0" 
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "4",
+            "reviewCount": "0"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "3",
+            "reviewCount": "0" 
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "3",
+            "reviewCount": "0" 
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "1",
+            "reviewCount": "0" 
+          }
+        ],
+        
+        "startDate": "2024-10-20",
+        "endDate": "2024-10-23",
+        "image": "http://www.mallorcabites.com/assets/fires/pebrebord/card.webp",
+        "subjectOf": [
+          {
+            "@type": "Recipe",
+            "name": "Sobrasada",
+            "image": "http://www.mallorcabites.com/assets/fires/pebrebord/receta01.jpg",
+            "url": "http://milreceptesdecuina.blogspot.com/2013/02/sobrassada-de-son-pou.html"
+          },
+          {
+            "@type": "Recipe",
+            "name": "Pulpo a la gallega",
+            "image": "http://www.mallorcabites.com/assets/fires/pebrebord/receta02.jpg",
+            "url": "https://cookingdaybyday.wordpress.com/tag/tap-de-corti/"
+          },
+          {
+            "@type":"CreativeWork",
+            "video": [
+                {
+                  "@type": "VideoObject",
+                  "name": "Video Fira del Pebre Bord 2023",
+                  "contentUrl": "http://www.mallorcabites.com/assets/fires/pebrebord/video.mp4"
+                },
+                {
+                  "@type": "VideoObject",
+                  "encoding":"video/webm",
+                  "name": "Video Fira del Pebre Bord 2023",
+                  "contentUrl": "http://www.mallorcabites.com/assets/fires/pebrebord/video.webm"
+                }
+              ]
+          }
+        ],
+        "audience": [
+          {
+            "@type": "PeopleAudience",
+            "audienceType": "Familias con niños"
+          },
+          {
+            "@type": "PeopleAudience",
+            "audienceType": "Veganos"
+          }
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Estacionamiento",
+            "value": "Gratuito"
+          }
+        ]
+      },{
+        "@identifier":2,
+        "@type": "FoodEvent",
+        "name": "Fira de la Llampuga",
+        "description": "Capdepera celebra la Fira de la Llampuga del 13 al 15 de octubre para revitalizar la pesca, el comercio y la gastronomía de Mallorca. Cala Ratjada se llena de sabor marinero con el Cap de setmana del Peix Fresc, arrancando con un concurso de tapas gratuito. Disfruta de música en vivo con ElsFunKiss y Chevy's Band, seguido de una paella el sábado y más música. El domingo, la XX Mostra de la Llampuga ofrece degustaciones gratuitas, prometiendo un fin de semana inolvidable",
+        "isAccessibleForFree": true,
+        "location": [{
+
+          "@type":"Place",
+          "address":{
+            "@type": "PostalAddress",
+            "addressLocality": "Capdepera",
+            "addressRegion": "ES",
+            "postalCode": "07580",
+            "streetAddress": "C/ Ciutat, 20. 07580 Capdepera."
+          }  
+        },{
+            "@type":"Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 39.7017718,
+                "longitude":3.43232631
+              }
+        }],
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "0" 
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "4",
+            "reviewCount": "0"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "3",
+            "reviewCount": "0" 
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "3",
+            "reviewCount": "0" 
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "1",
+            "reviewCount": "0" 
+          }
+        ],
+        
+        "startDate": "2024-10-13",
+        "endDate": "2024-10-15",
+        "image": "http://www.mallorcabites.com/assets/fires/llampuga/card.webp",
+        "subjectOf": [
+          {
+            "@type": "Recipe",
+            "name": "Ensalada de Llampuga Marinada",
+            "image": "http://www.mallorcabites.com/assets/fires/llampuga/receta01.jpg",
+            "url": "https://www.ultimahora.es/xaloc/gastronomia/2021/06/15/1274633/recetas-mallorca-ensalada-llampuga-marinada.html"
+          },
+          {
+            "@type": "Recipe",
+            "name": "Llampuga con pimientos",
+            "image": "http://www.mallorcabites.com/assets/fires/llampuga/receta02.jpg",
+            "url": "https://www.afuegolento.com/receta/llampuga-pimientos/20099/"
+          },
+          {
+            "@type": "Recipe",
+            "name": "Marmitako de lampuga",
+            "image": "http://www.mallorcabites.com/assets/fires/llampuga/receta03.jpg",
+            "url": "https://queesparatiunacocina.wordpress.com/2020/07/16/paella-con-llampuga/"
+          },
+          {
+            "@type": "Recipe",
+            "name": "Llampuga con pimientos",
+            "image": "http://www.mallorcabites.com/assets/fires/llampuga/receta04.jpg",
+            "url": "https://www.consumer.es/alimentacion/marmitako-de-lampuga.html"
+          },
+          {
+            "@type":"CreativeWork",
+            "video": [
+                {
+                  "@type": "VideoObject",
+                  "name": "Video Fira de la Llampuga 2023",
+                  "contentUrl": "http://www.mallorcabites.com/assets/fires/llampuga/video.mp4"
+                },
+                {
+                  "@type": "VideoObject",
+                  "encoding":"video/webm",
+                  "name": "Video Fira de la Llampuga 2023",
+                  "contentUrl": "http://www.mallorcabites.com/assets/fires/llampuga/video.webm"
+                }
+              ]
+          }
+        ],
+        "audience": [
+          {
+            "@type": "PeopleAudience",
+            "audienceType": "Familias con niños"
+          }
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Estacionamiento",
+            "value": "Gratuito"
+          }
+        ]
+        
+      },
+      {
+        "@identifier" : 3,
+        "@type": "FoodEvent",
+        "name": "Fira de l'oliva",
+        "description":"Descubre la esencia de Mallorca en la Fira de l’Oliva de Caimari, un evento que celebra la tradición olivarera al pie de la Serra de Tramuntana. Disfruta de un mercado lleno de productos locales, especialmente aceitunas y aceite, acompañado de música, concursos y delicias típicas. Una experiencia auténtica e inolvidable en un entorno idílico",
+        "isAccessibleForFree": true,
+        "location": [{
+
+          "@type":"Place",
+          "address":{
+            "@type": "PostalAddress",
+            "addressLocality": "Caimari",
+            "addressRegion": "ES",
+            "postalCode": "07314",
+            "streetAddress": "Caimari 07314, Selva - Mallorca"
+          }  
+        },{
+            "@type":"Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 39.7710178841546,
+                "longitude":2.9020107376760493
+              }
+        }],
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "0" 
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "4",
+            "reviewCount": "0"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "3",
+            "reviewCount": "0" 
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "3",
+            "reviewCount": "0" 
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "1",
+            "reviewCount": "0" 
+          }
+        ],
+        "startDate": "2024-11-19",
+        "endDate": "2024-11-20",
+        "image": "http://www.mallorcabites.com/assets/fires/firaoliva/card.webp",
+        "subjectOf": [
+          
+          {
+            "@type": "Recipe",
+            "name": "Bacalao al pil pil",
+            "image": "http://www.mallorcabites.com/assets/fires/firaoliva/receta01.jpg",
+            "url": "https://www.abc.es/recetasderechupete/bacalao-al-pil-pil-receta-tradicional-vasca/7762/"
+          },
+          {
+            "@type": "Recipe",
+            "name": "Aceitunas rellenas de carne",
+            "image": "http://www.mallorcabites.com/assets/fires/firaoliva/receta02.jpg",
+            "url": "https://www.elespanol.com/cocinillas/recetas/aperitivos-y-entrantes/20210303/aceitunas-rellenas-carne-receta-italiana-aperitivo/1002236826299_30.html"
+          },
+          {
+            "@type": "Recipe",
+            "name": "Dim Sum de aceitunas negras",
+            "image": "http://www.mallorcabites.com/assets/fires/firaoliva/receta03.jpg",
+            "url": "https://www.elespanol.com/cocinillas/recetas/aperitivos-y-entrantes/20220107/dim-sum-aceitunas-negras-cacerenas-salsa-amarilllo/1002482801696_30.html"
+          },
+          
+          {
+            "@type":"CreativeWork",
+            "video": [
+                {
+                  "@type": "VideoObject",
+                  "name": "Video Fira de l'oliva 2023",
+                  "contentUrl": "./assets/fires/firaoliva/video.mp4"
+                },
+                {
+                  "@type": "VideoObject",
+                  "encoding":"video/webm",
+                  "name": "Video Fira de l'oliva 2023",
+                  "contentUrl": "http://www.mallorcabites.com/assets/fires/llampuga/video.webm"
+                }
+              ]
+          }
+        ],
+        "audience": [
+          {
+            "@type": "PeopleAudience",
+            "audienceType": "Familias con niños"
+          },
+          {
+            "@type": "PeopleAudience",
+            "audienceType": "Veganos"
+          }
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Estacionamiento",
+            "value": "Gratuito"
+          }
+        ]
+        
+      }, {
+        "@identifier" : 4,
+        "@type": "FoodEvent",
+        "name": "Fira Nàutica i Gastronòmica de la Sípia",
+        "description":"La Feria Náutica y Gastronómica de Port d'Alcúdia es un vibrante evento que celebra la cultura marítima y la innovación culinaria en torno a la sepia. Ubicada en el pintoresco Paseo Marítimo, esta feria anual ofrece una mezcla única de degustaciones culinarias, donde los chefs locales despliegan su creatividad con platos a base de sepia, y una exposición náutica con los últimos productos y servicios del sector. Los visitantes pueden disfrutar de tapas bajo una gran carpa, participar en actividades tradicionales, y finalizar el día con conciertos nocturnos. El domingo se dedica a la diversión familiar, con juegos y entretenimiento para niños. La entrada es gratuita, con cupones disponibles para las degustaciones gastronómicas, haciendo de este evento una experiencia imperdible para los amantes del mar y la buena mesa.",
+        "isAccessibleForFree": true,
+        "location": [{
+
+          "@type":"Place",
+          "address":{
+            "@type": "PostalAddress",
+            "addressLocality": "Port d'Alcúdia",
+            "addressRegion": "ES",
+            "postalCode": "07400",
+            "streetAddress": "07400 Port d'Alcúdia, Illes Balears"
+          }  
+        },{
+            "@type":"Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 39.841347,
+                "longitude":3.132777
+              }
+        }],
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "0" 
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "4",
+            "reviewCount": "0"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "3",
+            "reviewCount": "0" 
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "3",
+            "reviewCount": "0" 
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "1",
+            "reviewCount": "0" 
+          }
+        ],
+        "startDate": "2024-04-12",
+        "endDate": "2024-04-14",
+        "image": "http://www.mallorcabites.com/assets/fires/firasepia/card.webp",
+        "subjectOf": [
+          
+          {
+            "@type": "Recipe",
+            "name": "Arroz con sepia y alcachofas",
+            "image": "http://www.mallorcabites.com/assets/fires/firasepia/receta01.jpg",
+            "url": "https://www.cuina.cat/receptes/arros-amb-sipia-i-carxofes_21099_117.html"
+          },
+          {
+            "@type": "Recipe",
+            "name": "Canelones de sepia rellenos de langostinos y setas con vinagreta",
+            "image": "http://www.mallorcabites.com/assets/fires/firasepia/receta02.jpg",
+            "url": "https://www.cuina.cat/receptes/canelons-de-sipia-farcits-de-llagostins-i-bolets-amb-vinagreta_20579_117.html"
+          },
+          {
+            "@type": "Recipe",
+            "name": "Crema de buey de mar con azafrán y sepia",
+            "image": "http://www.mallorcabites.com/assets/fires/firasepia/receta03.jpg",
+            "url": "https://www.cuina.cat/receptes/crema-escrita-de-bou-de-mar-amb-safra-i-sipia_20463_117.html"
+          },
+          {
+            "@type": "Recipe",
+            "name": "Arroz negro con sepia y langostinos",
+            "image": "http://www.mallorcabites.com/assets/fires/firasepia/receta04.jpg",
+            "url": "https://www.cuina.cat/receptes/arros-negre-amb-sipia-i-llagostins_30667_117.html"
+          },
+          
+          {
+            "@type":"CreativeWork",
+            "video": [
+                {
+                  "@type": "VideoObject",
+                  "name": "Fira Nàutica i Gastronòmica de la Sípia",
+                  "contentUrl": "http://www.mallorcabites.com/assets/fires/firasepia/video.mp4"
+                },
+                {
+                  "@type": "VideoObject",
+                  "encoding":"video/webm",
+                  "name": "Fira Nàutica i Gastronòmica de la Sípia",
+                  "contentUrl": "http://www.mallorcabites.com/assets/fires/firasepia/video.webm"
+                }
+              ]
+          }
+        ],
+        "audience": [
+          {
+            "@type": "PeopleAudience",
+            "audienceType": "Familias con niños"
+          }
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Estacionamiento",
+            "value": "Gratuito"
+          }
+        ]
+        
+      },
+      {
+        "@identifier" : 5,
+        "@type": "FoodEvent",
+        "name": "Fira del Vi de Pollença",
+        "description":"La XXI Fira del Vi de Pollença se celebrará el 27 y 28 de abril en el Claustro de San Domingo, con 38 bodegas mallorquinas y una destacada participación de la DO Montsant. La entrada, a 15 euros, incluye un descuento en compras de vino. Este año se destaca la colaboración con la Fira del Vi de Falset y la presentación del cartel ganador Taps de Joan Cerdà, simbolizando la apertura y degustación del vino.",
+        "isAccessibleForFree": false,
+        "offers": {
+          "@type": "Offer",
+          "price": "15",
+          "priceCurrency": "EUR"
+        },
+        "location": [{
+
+          "@type":"Place",
+          "address":{
+            "@type": "PostalAddress",
+            "addressLocality": "Pollença",
+            "addressRegion": "ES",
+            "postalCode": "07460",
+            "streetAddress": "Carrer de Guillem Cifre de Colonya, 0, 07460 Pollença, Illes Balears"
+          }  
+        },{
+            "@type":"Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 39.87928199307985,
+                "longitude":3.016553288672023
+              }
+        }],
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "0" 
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "4",
+            "reviewCount": "0"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "3",
+            "reviewCount": "0" 
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "3",
+            "reviewCount": "0" 
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "1",
+            "reviewCount": "0" 
+          }
+        ],
+        "startDate": "2024-04-27",
+        "endDate": "2024-04-29",
+        "image": "http://www.mallorcabites.com/assets/fires/firavi/card.webp",
+        "subjectOf": [
+          
+          {
+            "@type": "Recipe",
+            "name": "Carrilleras de cerdo al vino tinto",
+            "image": "http://www.mallorcabites.com/assets/fires/firavi/receta01.jpg",
+            "url": "https://www.directoalpaladar.com/recetas-de-carnes-y-aves/carrilleras-cerdo-al-vino-tinto-receta-para-impresionar-e-impresionarte"
+          },
+          {
+            "@type": "Recipe",
+            "name": "Mafaldine al vino tinto",
+            "image": "http://www.mallorcabites.com/assets/fires/firavi/receta02.jpg",
+            "url": "https://www.directoalpaladar.com/recetas-de-pasta/mafaldine-al-vino-tinto-receta-de-pasta-facil-en-una-sola-olla"
+          },
+          {
+            "@type": "Recipe",
+            "name": "Pastel de chocolate y vino tinto",
+            "image": "http://www.mallorcabites.com/assets/fires/firavi/receta03.jpg",
+            "url": "https://www.directoalpaladar.com/postres/pastel-de-chocolate-y-vino-tinto-receta-para-el-diadelchocolate"
+          },
+          
+          {
+            "@type":"CreativeWork",
+            "video": [
+                {
+                  "@type": "VideoObject",
+                  "name": "Fira del Vi de Pollença",
+                  "contentUrl": "http://www.mallorcabites.com/assets/fires/firavi/video.mp4"
+                },
+                {
+                  "@type": "VideoObject",
+                  "encoding":"video/webm",
+                  "name": "Fira del Vi de Pollença",
+                  "contentUrl": "http://www.mallorcabites.com/assets/fires/firavi/video.webm"
+                }
+              ]
+          }
+        ],
+        "audience": [
+          {
+            "@type": "PeopleAudience",
+            "audienceType": "Adultos"
+          }
+        ],
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Estacionamiento",
+            "value": "Gratuito"
+          }
+        ]
+        
+      }
+    ]
+  }
+  
